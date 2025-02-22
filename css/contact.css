@@ -1,0 +1,28 @@
+.contact-nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.contact-nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.contact-nav ul li a {
+  display: flex;
+  align-items: center;
+  color: var(--cor-primaria);
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-icon {
+  width: 24px;  /* Tamanho do ícone */
+  height: 24px;
+  margin-right: 10px;
+} 
+

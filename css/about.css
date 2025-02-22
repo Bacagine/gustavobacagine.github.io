@@ -1,0 +1,61 @@
+.about-hero {
+  text-align: center;
+  padding: 40px;
+  background: var(--cor-secundaria);
+  color: white;
+}
+
+.about-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+.skills, .experience, .contact {
+  text-align: center;
+  padding: 30px;
+}
+
+.skills ul, .experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li, .experience li {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.skills ul {
+    list-style-type: disc; /* Bolinhas para a lista principal */
+    padding-left: 20px; /* Indentação inicial */
+    text-align: left; /* Alinha o texto à esquerda */
+    display: inline-block; /* Mantém alinhado ao centro no geral */
+}
+
+.skills ul ul {
+    list-style-type: circle; /* Subníveis com bolinhas menores */
+    padding-left: 20px; /* Indentação extra */
+}
+
+.skills li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.contact-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-nav li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--cor-primaria);
+}
+

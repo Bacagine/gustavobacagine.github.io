@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título do Post</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/blog.css">
+  </head>
+  <body>
+    <header>
+      <nav class="menu-nav">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">Sobre</a></li>
+          <li><a href="../store.html">Loja</a></li>
+	  <li><a href="https://github.com/Bacagine" target="_blank">Github</a></li>
+          <li><a href="../contact.html">Contato</a></li>
+          <li><a href="../blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="blog-container">
+      <article class="post">
+        <h2>Meu Fork do Plugin de Integração do CVS para o KDevelop</h2>
+        <p class="post-small"><small>Publicado em 22 de fevereiro de 2025</small></p>
+	<img src="img/kdevcvs.png">
+	<p>Este artigo é destinado para desenvolvedores que tem a necessidade de integrar o CVS com o KDevelop.</p>
+        <p>Sei que o CVS não é muito usado em nossos dias para controle de versionamento de códigos, mas eu trabalho em uma empresa que utiliza o CVS para controle de versionamento, então por conta disso decidi escrever este artigo para o caso de mais alguém se encontrar em uma situação semelhante.</p>
+	<p>Juntamente com o CVS, usamos a IDE KDevelop versão 4 que contem um plugin que realiza a integração do CVS com o KDevelop. Este facilita nosso trabalho pois com ele nós podemos ver quem commitou determinado trecho de um código sem precisar abrir outra aplicação (como o Cervisia por exemplo) para ver as modificações nos fontes que estamos analisando.
+
+Ao usar uma versão atualizada do KDevelop (versão 5), percebi que nele não havia mais o plugin do CVS; após pesquisar descobri que o plugin foi descontinuado em 2018 pelos desenvolvedores do KDevelop e eles apagaram o código do seu repositorio oficial (você poderá obter essa informação <a href="https://invent.kde.org/kdevelop/kdevelop/-/commit/0fc8dddfc8f603084af6c723473fedd300ae62ae" target="_blank">neste link</a>
+Entrei no Gitlab do projeto e encontrei o commit em que foi excluido o código fonte do plugin, fiz uma copia do código e criei um fork em <a href="https://github.com/Bacagine/kdevelop-cvs-plugin" target="_blank">meu github</a>
+
+Espero que o fork desse plugin possa ser util para outros desenvolvedores que usam o CVS e o KDevelop.
+
+Veja a seguir um exemplo de uso do plugin:</p>
+	<img src="img/CVS-Annotate.png" class="small-img">
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Gustavo Bacagine - Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Título do Primeiro Post",
+    "date": "22 de fevereiro de 2025",
+    "summary": "Resumo do primeiro post...",
+    "url": "posts/post1.html"
+  },
+  {
+    "title": "Segundo Post",
+    "date": "23 de fevereiro de 2025",
+    "summary": "Resumo do segundo post...",
+    "url": "posts/post2.html"
+  }
+]
+

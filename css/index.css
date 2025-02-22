@@ -1,0 +1,159 @@
+.profile-pic {
+  width: 150px; /* Ajuste o tamanho */
+  height: 150px;
+  border-radius: 50%; /* Deixa a foto redonda */
+  object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+  border: 3px solid white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto 20px; /* Centraliza e dá espaço abaixo */
+}
+
+.code-box {
+  background-color: #f4f4f4;
+  border-left: 5px solid #007acc;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  /* Garante alinhamento à esquerda */
+  text-align: left;
+  margin-left: 0;
+  display: block;
+}
+
+.menu-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.menu-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: var(--cor-secundaria);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  background: white;
+  color: var(--cor-secundaria);
+  padding: 10px 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero .btn:hover {
+  background: #ddd;
+}
+
+.projects {
+  padding: 40px 20px;
+}
+
+.projects h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.project {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.project h3 {
+  color: var(--cor-primaria);
+}
+
+.project p {
+  font-size: 14px;
+  color: #555;
+}
+
+.project a {
+  display: inline-block;
+  background: var(--cor-primaria);
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.project a:hover {
+  background: var(--cor-secundaria);
+}
+
+.blog-preview {
+  padding: 40px 20px;
+  background: white;
+}
+
+.blog-preview h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.blog-preview ul {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-preview ul li {
+  margin: 10px 0;
+}
+
+.blog-preview ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--cor-primaria);
+}
+
+.blog-preview ul li a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
