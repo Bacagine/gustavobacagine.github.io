@@ -72,6 +72,11 @@
 
 .projects {
   padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  /*padding: 20px;*/
 }
 
 .projects h2 {
@@ -144,16 +149,16 @@
 }
 
 .btn {
-    display: inline-block;
-    background: #007bff;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
 .btn:hover {
-    background: #0056b3;
+  background: #0056b3;
 }
 
